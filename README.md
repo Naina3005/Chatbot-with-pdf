@@ -1,14 +1,19 @@
-Chat PDF with Gemini 💁
-Welcome to the Chat PDF with Gemini project repository! This project aims to create a web application that allows users to interact with PDF documents using a chat interface powered by Gemini, a conversational AI model.
+<h1>Chat PDF with Gemini </h1>  
 
-Overview
-This web application enables users to upload one or multiple PDF documents and ask questions related to the content of these documents. The Gemini model processes the user's questions and provides relevant answers based on the information extracted from the uploaded PDF files.
+Welcome to the Chat PDF with Gemini project repository! This project aims to create a web application that allows users to interact with PDF documents using a chat interface powered by Gemini, a conversational AI model. 
+<br>
 
-Features
-PDF Document Processing: Users can upload PDF documents containing text.
-Natural Language Processing (NLP): The Gemini model employs NLP techniques to understand user queries.
-Conversational Interface: Users can ask questions using natural language through a chat interface.
-Intelligent Answers: Gemini provides intelligent responses based on the content of the uploaded PDF documents.
+<h1>Overview </h1>
+This web application enables users to upload one or multiple PDF documents and ask questions related to the content of these documents. The Gemini model processes the user's questions and provides relevant answers based on the information extracted from the uploaded PDF files. 
+
+<br>
+
+<h1>Features</h1> 
+<br>
+<h2>PDF Document Processing:</h2> Users can upload PDF documents containing text.
+<h2> Natural Language Processing (NLP)</h2> The Gemini model employs NLP techniques to understand user queries.
+<h2>Conversational Interface:</h2> Users can ask questions using natural language through a chat interface.
+<h2></h2>Intelligent Answers:</h2> Gemini provides intelligent responses based on the content of the uploaded PDF documents.
 Usage
 Upload PDF Documents: Click on the "Upload PDF Files" button and select one or multiple PDF documents containing the information you want to query.
 Ask Questions: Type your questions in the chat interface and press Enter to submit. Gemini will process your question and provide an answer based on the content of the uploaded PDF documents.
