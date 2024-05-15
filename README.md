@@ -15,43 +15,55 @@ This web application enables users to upload one or multiple PDF documents and a
 <h2>Conversational Interface:</h2> Users can ask questions using natural language through a chat interface.
 <h2></h2>Intelligent Answers:</h2> Gemini provides intelligent responses based on the content of the uploaded PDF documents.
 Usage
-Upload PDF Documents: Click on the "Upload PDF Files" button and select one or multiple PDF documents containing the information you want to query.
-Ask Questions: Type your questions in the chat interface and press Enter to submit. Gemini will process your question and provide an answer based on the content of the uploaded PDF documents.
-Installation
+<h2>Upload PDF Documents:</h2>: Click on the "Upload PDF Files" button and select one or multiple PDF documents containing the information you want to query.
+<h2>>Ask Questions:</h2> Type your questions in the chat interface and press Enter to submit. Gemini will process your question and provide an answer based on the content of the uploaded PDF documents. 
+<br> 
+
+<h1>Installation</h1>
 To run the web application locally, follow these steps:
 
-Clone the repository:
+<h2>Clone the repository:</h2>
 
-bash
-Copy code
-git clone https://github.com/yourusername/chat-pdf-gemini.git
-Install dependencies:
+<h3>bash</h3>
 
-Copy code
-pip install -r requirements.txt
-Set up Google API Key:
+git clone https://github.com/yourusername/chat-pdf-gemini.git 
+
+<h3>Install dependencies:</h3>
+
+pip install -r requirements.txt 
+
+<h3> create virtual environment in cmd</h3>  
+
+ conda create -p venv python==3.12.1
+
+
+<h3>Set up Google API Key:</h3>
 
 Create a .env file in the project directory.
 
 Add your Google API Key to the .env file:
 
-makefile
-Copy code
-GOOGLE_API_KEY=your_google_api_key
-Run the application:
+GOOGLE_API_KEY=your_google_api_key 
 
-arduino
-Copy code
-streamlit run chat_pdf_gemini.py
-Technologies Used
-Streamlit: The web application framework used for building the user interface.
-PyPDF2: A Python library for extracting text from PDF documents.
-Google Generative AI: A model used for text embeddings and generating responses.
-FAISS: A library for efficient similarity search and clustering of dense vectors.
-Contributing
+<h3>Run the application:</h3>
+
+streamlit run chat_pdf_gemini.py 
+
+<br> 
+
+<h1>Technologies Used</h1> 
+
+<h2>Streamlit:</h2>Streamlit: The web application framework used for building the user interface.
+<h2>PyPDF2:</h2> A Python library for extracting text from PDF documents.
+<h2>Google Generative AI: </h2> A model used for text embeddings and generating responses.
+<h2>>FAISS:</h2> A library for efficient similarity search and clustering of dense vectors. 
+
+<h3>Contributing</h3>
+<br>
 We welcome contributions from the community! If you'd like to contribute to this project, please follow these guidelines:
 
-Fork the repository
+<h2>Fork the repository</h2> 
+<br> 
 Create your feature branch (git checkout -b feature/YourFeature)
 Commit your changes (git commit -am 'Add some feature')
 Push to the branch (git push origin feature/YourFeature)
