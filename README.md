@@ -16,7 +16,7 @@ This web application enables users to upload one or multiple PDF documents and a
 <h2></h2>Intelligent Answers:</h2> Gemini provides intelligent responses based on the content of the uploaded PDF documents.
 Usage
 <h2>Upload PDF Documents:</h2>: Click on the "Upload PDF Files" button and select one or multiple PDF documents containing the information you want to query.
-<h2>>Ask Questions:</h2> Type your questions in the chat interface and press Enter to submit. Gemini will process your question and provide an answer based on the content of the uploaded PDF documents. 
+<h2>Ask Questions:</h2> Type your questions in the chat interface and press Enter to submit. Gemini will process your question and provide an answer based on the content of the uploaded PDF documents. 
 <br> 
 
 <h1>Installation</h1>
@@ -56,7 +56,7 @@ streamlit run chat_pdf_gemini.py
 <h2>Streamlit:</h2>Streamlit: The web application framework used for building the user interface.
 <h2>PyPDF2:</h2> A Python library for extracting text from PDF documents.
 <h2>Google Generative AI: </h2> A model used for text embeddings and generating responses.
-<h2>>FAISS:</h2> A library for efficient similarity search and clustering of dense vectors. 
+<h2>FAISS:</h2> A library for efficient similarity search and clustering of dense vectors. 
 
 <h3>Contributing</h3>
 <br>
